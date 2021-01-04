@@ -1,0 +1,29 @@
+@model IList<ProjBiblioFront.Models.BookViewModel>
+
+<div class="card-deck">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mt-3">
+            <div class="card">
+
+                @if(item.Photo != null) {
+                    <img class="card-img-top" src="~/@item.Photo" style="width:318px;height:238px" />
+                } 
+                else {
+                    <img class="card-img-top" src="https://picsum.photos/200/150/?random" />
+                }
+
+                <div class="card-body">
+                    <h5 class="card-title">@item.Title</h5>
+                    <p class="card-text">Quantidade: @item.Amount</p>
+                </div>
+                <div class="card-footer">
+                    <a asp-area="" asp-controller="Karts" asp-action="Add" 
+                        asp-route-id="@item.Id" class="btn btn-success">
+                        <i class="fas fa-cart-plus"></i>
+                        Adicionar ao Carrinho</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjBiblio.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ProjBiblio.WebApi.Controllers.AuthorsController.Post(ProjBiblio.Application.InputModels.AuthorInputModel)">
+            <summary>
+            Add a new Author (inclui um novo Autor)
+            </summary>
+            <remarks>
+            Exemplo de request:
+            
+                {
+                    "id" : 0,
+                    "name": "Novo Autor"
+                }
+            
+            </remarks>
+            <param name="author"> objeto AuthorInputModel</param>
+            <returns>objeto autor incluído</returns>
+            <remarks>retorna um objeto autor incluído</remarks>
+        </member>
+    </members>
+</doc>

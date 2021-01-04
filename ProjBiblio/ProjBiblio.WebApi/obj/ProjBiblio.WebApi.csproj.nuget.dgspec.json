@@ -1,0 +1,390 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.WebApi\\ProjBiblio.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Application\\ProjBiblio.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Application\\ProjBiblio.Application.csproj",
+        "projectName": "ProjBiblio.Application",
+        "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Application\\ProjBiblio.Application.csproj",
+        "packagesPath": "C:\\Users\\Jr\\.nuget\\packages\\",
+        "outputPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
+                "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj",
+        "projectName": "ProjBiblio.Domain",
+        "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj",
+        "packagesPath": "C:\\Users\\Jr\\.nuget\\packages\\",
+        "outputPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj",
+        "projectName": "ProjBiblio.Infrastructure.Data",
+        "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\Jr\\.nuget\\packages\\",
+        "outputPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
+                "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.IoC\\ProjBiblio.Infrastructure.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.IoC\\ProjBiblio.Infrastructure.IoC.csproj",
+        "projectName": "ProjBiblio.Infrastructure.IoC",
+        "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.IoC\\ProjBiblio.Infrastructure.IoC.csproj",
+        "packagesPath": "C:\\Users\\Jr\\.nuget\\packages\\",
+        "outputPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Application\\ProjBiblio.Application.csproj": {
+                "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Application\\ProjBiblio.Application.csproj"
+              },
+              "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
+                "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj"
+              },
+              "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.WebApi\\ProjBiblio.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.WebApi\\ProjBiblio.WebApi.csproj",
+        "projectName": "ProjBiblio.WebApi",
+        "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.WebApi\\ProjBiblio.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Jr\\.nuget\\packages\\",
+        "outputPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj"
+              },
+              "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.IoC\\ProjBiblio.Infrastructure.IoC.csproj": {
+                "projectPath": "D:\\www\\Biblio.NET\\ProjBiblio\\ProjBiblio.Infrastructure.IoC\\ProjBiblio.Infrastructure.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

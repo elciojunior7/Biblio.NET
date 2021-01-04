@@ -1,0 +1,27 @@
+@model ProjBiblioFront.Models.AuthorViewModel
+
+<h1>Autores</h1>
+<h4>Remover</h4>
+<div>
+    <h3>Quer mesmo remover este autor?</h3>  
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Excluir" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar para Lista</a>
+    </form>
+</div>

@@ -1,0 +1,12 @@
+@model System.Collections.Generic.List<ProjBiblioFront.Models.AuthorSelectListDto>
+
+<div class="col-md-10">
+    @foreach (var item in Model)
+    {
+        <input type="checkbox"
+            name="selectedAuthors"
+            value="@item.AuthorID" 
+            @(Html.Raw(item.Selected ? "checked=\"checked\"" : "")) /> @item.Name
+            <br />
+    } 
+</div>

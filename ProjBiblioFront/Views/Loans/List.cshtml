@@ -1,0 +1,50 @@
+@model IEnumerable<ProjBiblioFront.Models.LoanViewModel>
+
+<h1>Meus Empréstimos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                Usuário
+            </th>
+            <th>
+                Data Inicial
+            </th>
+            <th>
+                Data Final
+            </th>
+            <th>
+                Data de Devolução
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReturnDate)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
